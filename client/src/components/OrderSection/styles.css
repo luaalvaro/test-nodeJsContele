@@ -1,0 +1,19 @@
+.containerOrder {
+    display: flex;
+    justify-content: flex-end;
+}
+.btnOrder {
+    height: 40px;
+    width: 280px;
+    border: none;
+    background-color: #1A237A;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 50px 145px;
+}
+
+.btnOrder:hover {
+    cursor: pointer;
+    background-color: #263192;
+}

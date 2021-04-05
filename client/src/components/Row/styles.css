@@ -1,0 +1,10 @@
+.Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+}
+
+.Row:last-child {
+    margin-top: -50px;
+}
