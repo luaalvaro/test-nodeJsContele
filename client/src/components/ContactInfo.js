@@ -1,5 +1,3 @@
-import './styles.css'
-
 export default function ContactInfo({ data, setData }) {
     return (
         <div className="container containerPadding">

@@ -1,5 +1,3 @@
-import './styles.css'
-
 export default function OrderSection({ onClick }) {
     return (
         <div className="containerOrder">

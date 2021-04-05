@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import './styles.css'
 
-import Container from './components/Container';
-import Header from './components/Header';
-import FormSection from './components/FormSection';
-import Row from './components/Row';
-import ContactInfo from './components/ContactInfo';
-import ShippingAddress from './components/ShippingAddress';
-import BillingAddress from './components/BillingAddress';
-import CheckBoxes from './components/CheckBoxes';
-import OrderSection from './components/OrderSection';
+import Container from './components/Container.js';
+import Header from './components/Header.js';
+import FormSection from './components/FormSection.js';
+import Row from './components/Row.js';
+import ContactInfo from './components/ContactInfo.js';
+import ShippingAddress from './components/ShippingAddress.js';
+import BillingAddress from './components/BillingAddress.js';
+import CheckBoxes from './components/CheckBoxes.js';
+import OrderSection from './components/OrderSection.js';
 
 function App() {
   const [contactInformation, setContactInformation] = useState({ firstName: '', lastName: '', email: '', phone: '', language: '', country: ''})

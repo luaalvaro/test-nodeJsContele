@@ -10,16 +10,8 @@ export default function Row({ data, setData }) {
                     <input value={data.address2} onChange={(e) => setData({...data, address2: e.target.value })} placeholder="Address Line 2:"></input>
                 </div>
                 <div className="row">
-                    <select value={data.city} onChange={(e) => setData({...data, city: e.target.value })}>
-                        <option>City:</option>
-                        <option>English</option>
-                        <option>Portuguese</option>
-                    </select>
-                    <select value={data.state} onChange={(e) => setData({...data, state: e.target.value })}>
-                        <option value="">State:</option>
-                        <option value="">United States</option>
-                        <option value="">Brazil</option>
-                    </select>
+                    <input value={data.city} onChange={(e) => setData({...data, city: e.target.value })} placeholder="City" ></input>
+                    <input value={data.state} onChange={(e) => setData({...data, state: e.target.value })} placeholder="State" ></input>
                     <input value={data.zip} onChange={(e) => setData({...data, zip: e.target.value })} placeholder="Zip code"></input>
                 </div>
             </form>

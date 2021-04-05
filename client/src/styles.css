@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoStyle {
+    width: 256px;
+    margin: 50px 120px;
+}
+
+.formSection {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: #1A237A;
+}
+
+form {
+    margin-top: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-mark {
+    display: flex;
+    color: #797979;
+    margin-right: 50px;
+}
+
+form input, select {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    outline: none;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+div select {
+    color: #797979;
+}
+
+.checkmark {
+    height: 35px;
+    width: 35px;
+}
+
+.containerPadding {
+    padding: 25px 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.containerOrder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnOrder {
+    height: 40px;
+    width: 280px;
+    border: none;
+    background-color: #1A237A;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 50px 145px;
+}
+
+.btnOrder:hover {
+    cursor: pointer;
+    background-color: #263192;
+}
+
+.Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+}
+
+.Row:last-child {
+    margin-top: -50px;
+}

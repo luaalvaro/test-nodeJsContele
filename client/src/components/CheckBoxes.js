@@ -1,5 +1,3 @@
-import './styles.css'
-
 export default function CheckBoxes({ data, setData }) {
     return (
         <div className="container containerPadding">
