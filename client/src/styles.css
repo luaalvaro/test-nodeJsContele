@@ -15,10 +15,23 @@
 .formSection {
     background-color: #F7F7F7;
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
+
+.formSectionConfirm {
+    background-color: #F7F7F7;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 25px 120px;
+}
+
+.formSectionConfirm h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 
 h2 {
     color: #1A237A;
@@ -30,6 +43,13 @@ form {
 
 .row {
     display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 25px;
 }
 
 .row-mark {
@@ -58,7 +78,7 @@ div select {
 }
 
 .containerPadding {
-    padding: 25px 0;
+    padding: 25px;
 }
 
 .container {
@@ -91,8 +111,14 @@ div select {
     display: flex;
     justify-content: space-between;
     padding: 25px 120px;
+    margin-right: 25px;
 }
 
 .Row:last-child {
     margin-top: -50px;
+}
+
+label {
+    color: red;
+    margin-top: -20px;
 }
